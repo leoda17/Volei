@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Seja Bem Vindo a SPIKE ZONE</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f2f2f2;
+       }
+       header {
+           background-color: #333;
+           color: #fff;
+           padding: 20px;
+           text-align: center;
+       }
+       h1 {
+           margin-top: 0;
+       }
+       .container {
+           width: 80%;
+           margin: 0 auto;
+           padding: 20px;
+       }
+       .produto {
+           background-color: #fff;
+           border-radius: 5px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           padding: 20px;
+           margin-bottom: 20px;
+       }
+       .produto img {
+           max-width: 100%;
+           height: auto;
+       }
+       .produto h2 {
+           margin-top: 0;
+       }
+       .produto p {
+           margin-bottom: 10px;
+       }
+       footer {
+           background-color: #333;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+       }
+   </style>
+</head>
+<body>
+
+
+
+   <!-- Adicione mais produtos conforme necessário -->
+</div>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Seja Bem Vindo a SPIKE ZONE</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f2f2f2;
+       }
+       header {
+           background-color: #333;
+           color: #fff;
+           padding: 20px;
+           text-align: center;
+       }
+       h1 {
+           margin-top: 0;
+       }
+       .container {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           margin-top: 20px;
+       }
+       .produto {
+           background-color: #fff;
+           border-radius: 5px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           padding: 20px;
+           margin-bottom: 20px;
+           width: calc(25% - 20px);
+           max-width: 250px;
+           text-align: center;
+       }
+       .produto img {
+           max-width: 100%;
+           height: auto;
+       }
+       .produto h2 {
+           margin-top: 0;
+       }
+       .produto p {
+           margin-bottom: 10px;
+       }
+       footer {
+           background-color: #333;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+       }
+   </style>
+</head>
+<body>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos com Bordas Pretas</title>
+    <style>
+    body {
+    background-color: #add8e6; /* Cor de fundo para o corpo da página */
+    margin: 0;
+    padding: 0;
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seja Bem Vindo a SPIKE ZONE</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            header {
+                background-color: #000000;
+                color: #fff;
+                padding: 60px;
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h1 {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+   
+    <header>
+        <h1>Seja Bem Vindo a SPIKE ZONE</h1>
+    </header>
+   
+    </body>
+    </html>
+   
+
+<div class="container">
+   <div class="produto">
+       <img src="https://a-static.mlcdn.com.br/800x560/bola-volei-penalty-8-0-pro/reidasbolas/7755646125/87a2263e57698042ac6a656fbb2e4804.jpeg" alt="Produto 1">
+       <h2>Bola de Vôlei Penalty 8.0 Pro IX</h2>
+       <p>
+        É a bola para aquela partida de vôlei com a galera? Para treinar com a equipe? Seja qual for a finalidade, a bola correta é fundamental para que seu jogo tenha um desempenho fenomenal. Pensando nas partidas de quadra, a Penalty criou a bola de vôlei 8.0 Pro. Aprovada pela Federação internacional de voleibol (FIVB), está presente nas Federações Catarinense de Vôlei ( FCV ), Federações Paranaense de Vôlei ( FPV) e Federações Paulista de Vôlei ( FPV ). Garanta controle nas jogadas e potências no ataque para marcar o match point com classe. Você precisa adquirir a bola de vôlei 8.0 Pro IX e ser o craque das quadras.</p>
+       <p>Preço: R$500,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://static.netshoes.com.br/produtos/joelheira-penalty-volei-v/14/D23-1198-014/D23-1198-014_zoom1.jpg?ts=1695469954&ims=544x" alt="Produto 2">
+       <h2>Par de Joelheiras Profissionais Asics Slider Butterfly</h2>
+       <p>A Joelheira Penalty Vôlei V protege e oferece suporte às suas jogadas, além de proporcionar ótima mobilidade. Oferece um ajuste estável, para você explorar o melhor desempenho nos lances.</p>
+       <p>Preço: R$179,99</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://static.netshoes.com.br/produtos/rede-de-volei-95m-com-4-faixas-sinteticas/14/U61-0269-014/U61-0269-014_zoom1.jpg?ts=1648261427&ims=544x" alt="Produto 3">
+       <h2>Rede de Vôlei 9,5m com 4 Faixas Sintéticas - Branco</h2>
+       <p>A Rede de Vôlei 9,5m com 4 Faixas Sintéticas da Gismar Redes é durável para uso interno e externo em escolas, quadras domésticas, condomínios e clubes. Feita de polietileno de alta qualidade com tratamento Anti-UV, possui tamanho padrão e é resistente às condições climáticas. Garantia contra defeitos de fabricação, excluindo danos causados após a instalação.</p>
+       <p>Preço: R$430,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://t-static.dafiti.com.br/kk_KNVj1euK2_Vd7HMiTeNKYoc8=/fit-in/430x623/static.dafiti.com.br/p/nike-t%c3%aanis-nike-renew-elevate-3-masculino-6330-92272121-5-zoom.jpg" alt="Produto 4">
+       <h2>Tênis Nike Renew Elevate 3 Masculino</h2>
+       <p>Aumente o nível do seu jogo em toda a quadra no Nike Renew Elevate 3. Especificamente ajustado para jogadores de 2 vias que desejam causar impacto ofensiva e defensivamente, este tênis ajuda você a otimizar sua habilidade com suporte e estabilidade durante todo o jogo, todas as temporadas. Tração e suporte no arco aprimorados aumentam o corte e o giro, o que pode fazer a diferença no alongamento.</p>
+       <p>Preço: R$699,99</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://imgnike-a.akamaihd.net/768x768/015767CU.jpg" alt="Produto 5">
+       <h2>Meia Nike Everyday Cushioned (3 Pares) Unissex</h2>
+       <p>Treine com a meia de treino com amortecimento Nike Everyday. A espessa sola de tecido felpudo dá a você mais conforto para corridas e levantamentos, enquanto uma faixa no arco do pé nervurada envolve o médio pé para uma sensação de sustentação.
+       </p>
+       <p>Preço: R$129,99</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://imgnike-a.akamaihd.net/768x768/013079IEA1.jpg" alt="Produto 6">
+       <h2>
+        Mochila Nike Elemental Unissex</h2>
+       <p>DESIGN VERSÁTIL. ARMAZENAMENTO DURÁVEL.
+        Dos treinos ao trabalho, a Mochila Nike Elemental oferece o que você precisa. Um compartimento grande com zíper oferece espaço para os calçados ou uma troca de roupa para a academia, além de livros e laptop para a escola. Dois bolsos externos ajudam a manter os eletrônicos e itens pequenos organizados e armazenados em segurança. Este produto é feito com pelo menos 65% de poliéster reciclado.</p>
+       <p>Preço: R$230,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://static.netshoes.com.br/produtos/manguito-lupo-manga-termica-braco-mangote-compressao-protecao-solar-uv-50-motoqueiro-ciclismo-volei/06/DCQ-1763-006/DCQ-1763-006_zoom1.jpg?ts=1695115140&ims=544x" alt="Produto 7">
+       <h2>Manguito Lupo Manga Térmica Braço Mangote Compressão Proteção Solar Uv 50+ Motoqueiro Ciclismo Vôlei - Preto</h2>
+       <p>Manguito Lupo, produzido com o fio Nilit® Breeze, tem toque gelado e proteção UV50+. TAMANHOS: Antebraço x Bíceps P - 23-25 cm / 23-27 cm M - 26-28 cm / 28-32 cm G - 29-31 cm / 33-37 cm</p>
+       <p>Preço: R$59,99</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://static.netshoes.com.br/produtos/calca-termica-kappa-belquior-masculina/06/D24-1660-006/D24-1660-006_zoom1.jpg?ts=1694661517&ims=544x" alt="Produto 8">
+       <h2>Calça Térmica Kappa Belquior Masculina - Preto</h2>
+       <p>A calça térmica Belquior da Kappa é projetada para treinos, feita de poliéster e elastano para conforto e modelagem justa. Seu design básico em preto com detalhes cinza e o logotipo da marca oferecem estilo discreto. O tecido térmico mantém a temperatura corporal estável, evitando lesões e cãibras. Com elástico reforçado na cintura para ajuste ideal, é uma escolha ideal para treinos em dias frios. Composição: 92% Poliéster e 08% Elastano.</p>
+       <p>Preço: R$70,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://imgnike-a.akamaihd.net/768x768/011261ID.jpg" alt="Produto 9">
+       <h2>Camiseta Nike Dri-FIT Academy Masculina</h2>
+       <p>Eleve o nível do seu treino diário com a camiseta Nike Dri-FIT Academy. O tecido macio e elástico remove o suor da pele, enquanto os painéis de tela mantêm o frescor para que você se concentre em dar o seu melhor no jogo. Este produto é 100% feito com fibras de poliéster reciclado.
+
+
+       </p>
+       <p>Preço: R$150,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+   </div>
+   <div class="produto">
+       <img src="https://http2.mlstatic.com/D_NQ_NP_2X_839307-MLU70594706850_072023-F.webp" alt="Produto 10">
+       <h2>Par Antena Volei/futvôlei Fibra De Vidro Maciça </h2>
+       <p>Apresentamos o Par Antena Volei/futvôlei Fibra De Vidro Maciça Tam.oficial, um produto de alta qualidade da marca Gold Fibras Premiun. Este par de antenas é feito de fibra de vidro sólida, garantindo durabilidade e resistência, mesmo em condições adversas. A cor vermelho escuro adiciona um toque de estilo e visibilidade, tornando-o um destaque em qualquer jogo.
+    </p>
+       <p>Preço: R$100,00</p>
+       <a href="outra_pagina.html"><button>Adicionar o carrinho</button></a>
+    </div>
+</div>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Carrinho</title>
+    <style>
+        /* Posiciona o botão no canto superior direito da página */
+        .botao-carrinho {
+            position: fixed; /* Fixa o botão em relação à janela do navegador */
+            top: 0; /* Distância do topo */
+            right: 0; /* Distância da direita */
+            margin: 25px; /* Margem em torno do botão */
+            text-decoration: none; /* Remove o sublinhado do link */
+            display: flex; /* Exibe os itens (imagem e texto) em linha */
+            align-items: center; /* Centraliza os itens verticalmente */
+            background-color: #f0f0f0; /* Cor de fundo do botão */
+            border: none; /* Remove a borda */
+            padding: 10px; /* Espaçamento interno */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        }
+
+        .botao-carrinho img {
+            width: 25px; /* Largura da imagem */
+            height: 25px; /* Altura da imagem */
+            margin-right: 5px; /* Espaçamento entre a imagem e o texto */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Botão do Carrinho -->
+<a href="pagina-destino.html" class="botao-carrinho">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtJVi83fRljFi5XowZfj3XXihQIIJYjCqFQ&usqp=CAU" alt="Carrinho">
+</a>
+
+</body>
+</html>
