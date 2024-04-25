@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dados de Pagamento</title>
+<style>
+    body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding-bottom: 50px; /* Altura do botão */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0; /* Cor de fundo para o corpo da página */
+    }
+
+    #dados {
+        text-align: center;
+        margin-bottom: 100px; /* Espaço adicional para acomodar o botão */
+    }
+
+</style>
+</head>
+<body>
+
+<div id="dados">
+    <h1>Dados de Pagamento:</h1>
+    <form id="formulario">
+        <p><strong>Nome no Cartão:</strong> <input type="text" id="nomeCartao" required></p>
+        <p><strong>Número do Cartão:</strong> <input type="text" id="numeroCartao" required></p>
+        <p><strong>Data de Validade:</strong> <input type="text" id="dataValidade" placeholder="MM/AA" required></p>
+        <p><strong>Código de Segurança:</strong> <input type="text" id="codigoSeguranca" required></p>
+        <button type="submit">Pagar</button>
+    </form>
+</div>
+
+<script>
+    // Captura o formulário
+    const form = document.getElementById("formulario");
+
+    // Adiciona um ouvinte de eventos para o evento 'submit'
+    form.addEventListener("submit", function(event) {
+        // Previne o comportamento padrão do formulário (recarregar a página)
+        event.preventDefault();
+
+        // Captura os valores dos campos de entrada
+        const nomeCartao = document.getElementById("nomeCartao").value;
+        const numeroCartao = document.getElementById("numeroCartao").value;
+        const dataValidade = document.getElementById("dataValidade").value;
+        const codigoSeguranca = document.getElementById("codigoSeguranca").value;
+
+        // Aqui você pode adicionar lógica para processar o pagamento
+        // Por enquanto, apenas exibiremos os dados na página
+        document.getElementById("dados").innerHTML = `
+            <h1>Dados de Pagamento:</h1>
+            <p><strong>Nome no Cartão:</strong> ${nomeCartao}</p>
+            <p><strong>Número do Cartão:</strong> ${numeroCartao}</p>
+            <p><strong>Data de Validade:</strong> ${dataValidade}</p>
+            <p><strong>Código de Segurança:</strong> ${codigoSeguranca}</p>
+            <p>Pagamento processado com sucesso!</p>
+        `;
+    });
+
+    // Botão "Continuar" permanece no canto inferior direito
+    window.addEventListener("scroll", function() {
+        const button = document.getElementById("continuarBtn");
+        if (window.scrollY + window.innerHeight >= document.body.scrollHeight) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    });
+</script>
+</body>
+</html>
