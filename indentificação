@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação do Cliente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 300px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px; /* Adiciona um espaço entre os botões */
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Identifique-se, por favor</h2>
+
+<form id="identificacaoCliente">
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <button type="button" class="btn-primary" id="salvarBtn">Salvar</button>
+    <button type="button" class="btn-secondary" id="continuarBtn">Continuar</button>
+</form>
+
+<script>
+    const salvarBtn = document.getElementById("salvarBtn");
+    const continuarBtn = document.getElementById("continuarBtn");
+
+    salvarBtn.addEventListener("click", function() {
+        const nome = document.getElementById("nome").value;
+        const email = document.getElementById("email").value;
+
+        // Salva os dados no localStorage
+        localStorage.setItem("nome", nome);
+        localStorage.setItem("email", email);
+
+        alert("Informações salvas com sucesso!");
+    });
+
+    continuarBtn.addEventListener("click", function() {
+        // Verifica se os dados foram salvos
+        if(localStorage.getItem("nome") && localStorage.getItem("email")) {
+            // Redireciona para outra página
+            window.location.href = "outra_pagina.html";
+        } else {
+            alert("Por favor, salve suas informações primeiro.");
+        }
+    });
+</script>
+
+</body>
+</html>
